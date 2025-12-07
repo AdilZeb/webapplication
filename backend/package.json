@@ -1,0 +1,31 @@
+{
+    "name": "cardex-backend",
+    "version": "1.0.0",
+    "description": "CARDEX Backend API Server",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "keywords": [
+        "cardex",
+        "api",
+        "express"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongodb-memory-server": "^10.4.1",
+        "mongoose": "^8.0.0",
+        "stripe": "^14.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
